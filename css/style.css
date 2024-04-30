@@ -14,9 +14,9 @@
 	--primary: #131417;
 	--secondary: #959cbb;
 	--darker: rgba(31, 34, 41, 0.8);
-	--highlight: #B9FE03;
-	--highlight_new: #67b91a;
-	--high_inactive: #69FF00;
+	--highlight: #78d23d;
+	--highlight_new: #1e8c45;
+	--high_inactive: #3aa346;
 	--main-text: #959cbb;
 	--high_grad: linear-gradient(to left, var(--highlight), #244134);
 	--medium_grad: linear-gradient(45deg, var(--secondary), #091555);
@@ -355,7 +355,7 @@ h3 {
 	white-space: nowrap;
 	margin-bottom: 2vw;
 	animation: back 20s linear infinite;
-	background: linear-gradient(90deg, #FFFF00 0%, #B9FE03 50%, #69FF00 100%);
+	background: linear-gradient(90deg, #9be931 0%, #78d23d 50%, #3aa346 100%);
 	background-size: 1000% 100%;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -604,7 +604,7 @@ h3 {
 }
 
 .hero_genres a:hover {
-	background: linear-gradient(90deg, #FFFF00 0%, #B9FE03 50%, #69FF00 100%);
+	background: linear-gradient(90deg, #9be931 0%, #78d23d 50%, #3aa346 100%);
 	color: var(--primary);
 }
 
@@ -738,7 +738,7 @@ h3 {
 	/*color: var(--main-text);*/
 	margin-bottom: 40px;
 	animation: back 20s linear infinite;
-	background: linear-gradient(90deg, #FFFF00 0%, #B9FE03 50%, #69FF00 100%);
+	background: linear-gradient(90deg, #9be931 0%, #78d23d 50%, #3aa346 100%);
 	background-size: 1000% 100%;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -1154,7 +1154,7 @@ h3.game_title {
 	height: 100%;
 	display: flex;
 	align-items: center;
-	background: linear-gradient(90deg, #FFFF00 0%, #B9FE03 50%, #69FF00 100%);
+	background: linear-gradient(90deg, #9be931 0%, #78d23d 50%, #3aa346 100%);
 	padding: 50px;
 	margin: 0 20px 0 0;
 	border-radius: 10px;
@@ -1194,7 +1194,7 @@ h3.game_title {
 	font-size: 28px;
 	color: var(--primary);
 	padding: 29px;
-	background-image: linear-gradient(90deg, #FFFF00 0%, #B9FE03 50%, #69FF00 100%);
+	background-image: linear-gradient(90deg, #9be931 0%, #78d23d 50%, #3aa346 100%);
 	background-size: 300% 100%;
 	moz-transition: all .4s ease-in-out;
 	-o-transition: all .4s ease-in-out;
@@ -1937,7 +1937,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 
 .team-ltpwrlayouts h3 {
 	animation: back 20s linear infinite;
-	background: linear-gradient(90deg, #FFFF00 0%, #B9FE03 50%, #69FF00 100%);
+	background: linear-gradient(90deg, #9be931 0%, #78d23d 50%, #3aa346 100%);
 	background-size: 1000% 100%;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -2541,7 +2541,7 @@ a.blog-read:hover {
 
 .contact-right-ltpwr input.text:focus,
 .contact-right-ltpwr textarea:focus {
-	border-color: #B9FE03;
+	border-color: #78d23d;
 	outline: 0;
 	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px #bbfe0393;
 	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px #bbfe0393;

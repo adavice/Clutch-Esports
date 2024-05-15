@@ -95,7 +95,7 @@ form.cardForm {
 form .input {
     width: 100%;
     padding: 10px;
-    border: 1px solid #959cbb;
+    border: 1px solid var(--high_inactive);
     margin-bottom: 10px;
     background: transparent;
     outline: none;
@@ -103,11 +103,6 @@ form .input {
     background: var(--darker);
     border-radius: 8px;
 }
-
-::placeholder {
-	color: #959cbb !important;
-}
-
 .CardField--ltr .CardBrandIcon-container {
     right: 0;
 }
@@ -116,7 +111,7 @@ form .input {
 }
 form label { margin: 0 0 5px 0; color: var(--bright)}
 #cardName::placeholder {
-    color: #959cbb !important;
+    color: var(--primary)!important;
 }
 .SfcField--webkit-autofill {
 color: #fff;
